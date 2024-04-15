@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container-Corpo {
+    display: grid;
+    grid-template-areas:
+        "h h h"
+        "a m m"
+        "a m m"
+        "f f f"
+    ;
+    background-color: black;
+    color: white;
+}
+
+.container-Corpo > :nth-child(1) {
+    grid-area: h;
+}
+.container-Corpo > :nth-child(2) {
+    grid-area: m;
+}
+.container-Corpo > :nth-child(3) {
+    grid-area: a;
+}
+.container-Corpo > :nth-child(4) {
+    grid-area: f;
+}
