@@ -1,0 +1,1 @@
+alert('Este web site é meramente fiquitício! E todos o seu conteúdo vem da minha criatívidade.');
